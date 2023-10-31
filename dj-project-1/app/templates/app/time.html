@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Время</title>
+</head>
+<body>
+    <h1>Текущее время:</h1>
+     {% for txt, time in diff_times.items %}
+        <h2>{{ txt }}{{ time }}</h2>
+    {% endfor %}
+</body>
+</html>
